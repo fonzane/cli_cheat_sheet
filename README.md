@@ -1,6 +1,6 @@
 # CLI Cheat Sheet
-##Linux
+## Linux
 Check ports usage: `sudo lsof -i -P -n | grep LISTEN`
-##Git
+## Git
 Commit changes: `git commit -m "<description>"`
 Push changes: `git push <remote-repo(usually origin)> <branch(usually master)>`
