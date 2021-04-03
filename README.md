@@ -7,5 +7,6 @@ Enable Services: `sudo ufw allow OpenSSH && sudo ufw allow http && sudo ufw enab
 ## Linux
 Check ports usage: `sudo lsof -i -P -n | grep LISTEN`
 ## Git
+Add file changes: `git add --all`<br/>
 Commit changes: `git commit -m "<description>"`<br/>
 Push changes: `git push <remote-repo(usually origin)> <branch(usually master)>`
