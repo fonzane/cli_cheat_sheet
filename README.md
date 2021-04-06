@@ -10,3 +10,5 @@ Check ports usage: `sudo lsof -i -P -n | grep LISTEN`
 Add file changes: `git add --all`<br/>
 Commit changes: `git commit -m "<description>"`<br/>
 Push changes: `git push <remote-repo(usually origin)> <branch(usually master)>`
+## WSL 2
+Path on windows explorer: `\\wsl$\`
