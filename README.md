@@ -13,5 +13,5 @@ Push changes: `git push <remote-repo(usually origin)> <branch(usually master)>`
 ## WSL 2
 Path on windows explorer: `\\wsl$\`
 ## Docker
-List all docker containers: `docker ps`
+List all docker containers: `docker ps`<br/>
 Execute a command in a running container: `docker exec -it <container name> <command>`
