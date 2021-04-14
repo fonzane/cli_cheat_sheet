@@ -5,7 +5,9 @@ Grant sudo: `usermod -aG sudo <username>`<br/>
 SetUp firewall: `sudo apt update && sudo apt install ufw`<br/>
 Enable Services: `sudo ufw allow OpenSSH && sudo ufw allow http && sudo ufw enable`<br/>
 ## Linux
-Check ports usage: `sudo lsof -i -P -n | grep LISTEN`
+Check ports usage: `sudo lsof -i -P -n | grep LISTEN`<br/>
+Give user recursive permission for all subdirs `sudo chmod o+rwx`<br/>
+Remove those permissions again `sudo chmod o-rwx`
 ## Git
 Add file changes: `git add --all`<br/>
 Commit changes: `git commit -m "<description>"`<br/>
