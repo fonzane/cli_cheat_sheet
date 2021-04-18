@@ -16,4 +16,5 @@ Push changes: `git push <remote-repo(usually origin)> <branch(usually master)>`
 Path on windows explorer: `\\wsl$\`
 ## Docker
 List all docker containers: `docker ps`<br/>
-Execute a command in a running container: `docker exec -it <container name> <command>`
+Execute a command in a running container: `docker exec -it <container name> <command>`<br/>
+Copy files: `docker cp <container name>:<src path> <dest path>`
