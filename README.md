@@ -7,7 +7,8 @@ Enable Services: `sudo ufw allow OpenSSH && sudo ufw allow http && sudo ufw enab
 ## Linux
 Check ports usage: `sudo lsof -i -P -n | grep LISTEN`<br/>
 Give user recursive permission for all subdirs `sudo chmod -R o+rwx`<br/>
-Remove those permissions again `sudo chmod -R o-rwx`
+Remove those permissions again `sudo chmod -R o-rwx`<br/>
+Restart network service: `sudo /etc/init.d/networking restart`
 ## Git
 Add file changes: `git add --all`<br/>
 Commit changes: `git commit -m "<description>"`<br/>
