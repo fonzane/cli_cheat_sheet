@@ -5,6 +5,7 @@ Grant sudo: `usermod -aG sudo <username>`<br/>
 SetUp firewall: `sudo apt update && sudo apt install ufw`<br/>
 Enable Services: `sudo ufw allow OpenSSH && sudo ufw allow http && sudo ufw enable`<br/>
 ## Linux
+Find a specific process: `ps ax | grep <process-name>` <br/>
 Check ports usage: `sudo lsof -i -P -n | grep LISTEN`<br/>
 Give user recursive permission for all subdirs `sudo chmod -R o+rwx`<br/>
 Remove those permissions again `sudo chmod -R o-rwx`<br/>
