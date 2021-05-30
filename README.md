@@ -17,6 +17,6 @@ Push changes: `git push <remote-repo(usually origin)> <branch(usually master)>`
 ## WSL 2
 Path on windows explorer: `\\wsl$\`
 ## Docker
-List all docker containers: `docker ps`<br/>
+List all running docker containers: `docker ps` for all containers: `docker ps -a` <br/>
 Execute a command in a running container: `docker exec -it <container name> <command>`<br/>
 Copy files: `docker cp <container name>:<src path> <dest path>`
