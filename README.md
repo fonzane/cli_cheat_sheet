@@ -19,4 +19,5 @@ Path on windows explorer: `\\wsl$\`
 ## Docker
 List all running docker containers: `docker ps` for all containers: `docker ps -a` <br/>
 Execute a command in a running container: `docker exec -it <container name> <command>`<br/>
-Copy files: `docker cp <container name>:<src path> <dest path>`
+Copy files: `docker cp <container name>:<src path> <dest path>`<br/>
+Remove all unused docker objects: `docker system prune` 
